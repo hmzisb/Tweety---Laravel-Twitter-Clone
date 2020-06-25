@@ -8,3 +8,6 @@ Twitter clone built in Laravel for learning purpose.
 - Following system
 - Timeline
 - Follow List
+
+
+![](https://i.ibb.co/SnTYbcB/twitteclone.png)
