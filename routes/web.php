@@ -1,7 +1,5 @@
 <?php
 
-// DB::listen(function($query){ var_dump($query->sql, $query->bindings); });
-
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,13 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
 
 Auth::routes();
 
 Route::middleware('auth')->group(function(){
+	Route::get('/', 'TweetController@index');
 	Route::get('/tweets', 'TweetController@index')->name('home');
 	Route::post('/tweets', 'TweetController@store')->name('Post-Tweet');
 	Route::post('/profiles/{user:username}/follow', 'FollowsController@store');
