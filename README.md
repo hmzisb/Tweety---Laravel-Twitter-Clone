@@ -10,4 +10,4 @@ Twitter clone built in Laravel for learning purpose.
 - Follow List
 
 
-![](https://i.ibb.co/SnTYbcB/twitteclone.png)
+![](https://i.ibb.co/MVTwrf7/twitteclone.png)
