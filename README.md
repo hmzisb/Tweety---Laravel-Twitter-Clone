@@ -9,5 +9,9 @@ Twitter clone built in Laravel for learning purpose.
 - Timeline
 - Follow List
 
+--------------
+
+
+
 
 ![](https://i.ibb.co/MVTwrf7/twitteclone.png)
